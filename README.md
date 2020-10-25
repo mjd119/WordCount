@@ -1,5 +1,6 @@
 # WordCount
 ![Screenshot](https://user-images.githubusercontent.com/37961338/97112647-dc8f3400-16bb-11eb-8d45-0b52453e8d12.png)
-![Screenshot](https://user-images.githubusercontent.com/37961338/97116650-ea9d7e80-16d4-11eb-91ce-20d02b395ede.png)
-![Screenshot](https://user-images.githubusercontent.com/37961338/97116654-ed986f00-16d4-11eb-8fa2-00d265d766a0.png)
-![Screenshot](https://user-images.githubusercontent.com/37961338/97116657-effac900-16d4-11eb-84f7-8c40497a9aa9.png)
+![Screenshot](https://user-images.githubusercontent.com/37961338/97117574-03109780-16db-11eb-9507-b4ef1470c61b.png)
+![Screenshot](https://user-images.githubusercontent.com/37961338/97117576-04da5b00-16db-11eb-91ad-367f2f8755f5.png)
+![Screenshot](https://user-images.githubusercontent.com/37961338/97117580-0ad03c00-16db-11eb-8d60-11c8e21a9509.png)
+![Screenshot](https://user-images.githubusercontent.com/37961338/97117582-14f23a80-16db-11eb-8a6b-43f73b0cc8b2.png)
