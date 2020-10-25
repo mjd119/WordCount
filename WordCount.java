@@ -46,7 +46,7 @@ public class WordCount {
   }
 
   public static void main(String[] args) throws Exception {
-    double start = System.currentTimeMillis(); // Get start time for program
+    long start = System.currentTimeMillis(); // Get start time for program
     Configuration conf = new Configuration();
     Job job = Job.getInstance(conf, "word count");
     job.setJarByClass(WordCount.class);
@@ -58,7 +58,8 @@ public class WordCount {
     FileInputFormat.addInputPath(job, new Path(args[0]));
     FileOutputFormat.setOutputPath(job, new Path(args[1]));
     System.exit(job.waitForCompletion(true) ? 0 : 1);
-    double finish = System.currentTimeMillis(); // Get end time for program
-    double time = finish-start; // Calculate time for program to run
+    long finish = System.currentTimeMillis(); // Get end time for program
+    long time = finish-start; // Calculate time for program to run
+    System.out.println("Execution time in ms: " + time);
   }
 }
