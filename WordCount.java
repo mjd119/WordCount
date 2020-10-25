@@ -60,6 +60,6 @@ public class WordCount {
     System.exit(job.waitForCompletion(true) ? 0 : 1);
     long finish = System.currentTimeMillis(); // Get end time for program
     long time = finish-start; // Calculate time for program to run
-    System.out.println("Execution time in ms: " + time);
+    System.out.println("Execution time in ms: " + time); // Print time it took to execute the program
   }
 }
