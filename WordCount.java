@@ -57,9 +57,11 @@ public class WordCount {
     job.setOutputValueClass(IntWritable.class);
     FileInputFormat.addInputPath(job, new Path(args[0]));
     FileOutputFormat.setOutputPath(job, new Path(args[1]));
-    System.exit(job.waitForCompletion(true) ? 0 : 1);
+//    System.exit(job.waitForCompletion(true) ? 0 : 1); // Line replaced with line below so we don't exit before printing execution time
+    job.waitForCompletion(true);
     long finish = System.currentTimeMillis(); // Get end time for program
     long time = finish-start; // Calculate time for program to run
     System.out.println("Execution time in ms: " + time); // Print time it took to execute the program
+    System.exit(0);
   }
 }
